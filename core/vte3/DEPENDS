@@ -1,8 +1,9 @@
 depends gobject-introspection
-depends gtk+-3
 depends vala
 depends intltool
 depends meson
+
+depends gtk+-3
 
 optional_depends icu4c \
                  "-D icu=true" \
