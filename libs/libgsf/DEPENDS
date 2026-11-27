@@ -1,8 +1,9 @@
 depends libxml2
 depends intltool
-depends zlib
 depends gobject-introspection
 depends gtk-doc
+depends bzip2
+depends zlib
 
 optional_depends gdk-pixbuf \
                  "--with-gdk-pixbuf" \
